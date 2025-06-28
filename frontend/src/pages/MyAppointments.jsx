@@ -11,7 +11,7 @@ const MyAppointments = () => {
     const navigate = useNavigate()
 
     const [appointments, setAppointments] = useState([])
-    const [payment, setPayment] = useState('')
+    // const [payment, setPayment] = useState('')
 
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
