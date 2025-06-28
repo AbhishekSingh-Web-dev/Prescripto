@@ -1,8 +1,24 @@
-# React + Vite
+## 🔐 Login Credentials Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 👨‍💼 Admin Login
 
-Currently, two official plugins are available:
+To access the admin panel, use the following credentials:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Email:** `admin@medical.com`
+- **Password:** `qwerty123`
+
+
+### 🩺 Doctor Login (Pre-Registered Doctors Only)
+
+Doctors can log in **only if they are already registered in the backend database**.
+
+- **Email Format:** `firstname@gmail.com`
+- **Password Format:** `firstname12345`
+
+> Replace `firstname` with the doctor's actual first name in **lowercase**.
+
+####  Example:
+If the doctor's first name is `Ravi`, then:
+
+- **Email:** `ravi@gmail.com`  
+- **Password:** `ravi12345`
